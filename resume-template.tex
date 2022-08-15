@@ -1,0 +1,164 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[UTF8]{ctex}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      {\small#3} & {\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+%----------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+
+\begin{document}
+
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large 你的名字} & 
+  Email : \href{mailto:yourmail@gmail.com}{yourmail@gmail.com} \\
+  
+  男 | 1998.06 | 江苏南京 & 
+  Github : \href{http://github.com/yourgithub}{YourGitHub} \\
+  
+  Mobile : 188-8888-8888 &
+  Blog : \href{https://yourwebsite.com/}{https://yourwebsite.com}
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{教育背景}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {清华大学·计算机科学与技术系}{硕士 | 计算机技术}
+      {综合排名前10\%。在计算机网络研究所进行强化学习、数据中心网络方向的研究。}{2021.9 -- 2024.6}
+    \resumeSubheading
+      {哈尔滨工业大学·计算机科学与技术学院}{学士 | 计算机科学与技术}
+      {综合排名前5\%，CET-6 635分，保研至清华大学。省级三好学生，校级优秀毕业设计。}{2017.9 -- 2021.6}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{实习经历}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {字节跳动}{后端开发工程师}
+      {抖音 - 音视频架构（北京）}{2020.10 - 2021.3}
+      \resumeItemListStart
+        \resumeItem{项目介绍}
+          {项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍。}
+        \resumeItem{工作职责}
+          {工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责。}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{项目实践}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {科研项目·\href{https://github.com/projectaddr}{项目名称}}{主要参与人}
+      {清华大学计算机网络研究所（北京）}{2022.3 - Now}
+      \resumeItemListStart
+        \resumeItem{项目介绍}
+          {项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍。}
+        \resumeItem{项目成果}
+          {（论文、奖项、开源贡献）项目成果项目成果项目成果项目成果项目成果项目成果项目成果项目成果项目成果项目成果项目成果项目成果项目成果项目成果项目成果项目成果项目成果项目成果项目成果。}
+      \resumeItemListEnd
+    \resumeSubheading
+      {开源项目·\href{https://github.com/projectaddr}{项目名称}}{项目负责人}
+      {哈尔滨工业大学计算机科学与技术学院（哈尔滨）}{2020.3 - 2021.6}
+      \resumeItemListStart
+        \resumeItem{项目介绍}
+          {项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍。}
+        \resumeItem{工作职责}
+          {工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责工作职责。}
+        \resumeItem{奖项荣誉}
+          {「奖项荣誉奖项荣誉」国家二等奖，「奖项荣誉奖项荣誉」第一名。}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------AWARDS-----------------
+\section{竞赛获奖与在校荣誉}
+  \resumeSubHeadingListStart
+    \resumeSubItem{软件开发比赛}
+      {20xx xx比赛 xx级x等奖，20xx xx比赛 xx级x等奖}
+    \resumeSubItem{数学建模竞赛}
+      {20xx xx比赛 xx级x等奖，20xx xx比赛 xx级x等奖}
+    \resumeSubItem{奖学金/荣誉称号}
+      {2022腾讯奖学金，2021清华大学特等奖学金（1\%），2020国家奖学金}
+  \resumeSubHeadingListEnd
+
+
+%--------PROFESSIONAL SKILLS------------
+\section{专业技能}
+  \resumeSubHeadingListStart
+  \resumeSubItem{程序语言}{常用C/C++、Python、SQL；有过Java、Go、HTML/CSS/JavaScript开发经历}
+  \resumeSubItem{开发技术}{熟悉Linux、Redis、MySQL、Git；了解Docker、Django、Vue.js等框架与中间件}
+  \resumeSubItem{知识领域}{（较为细分的领域）强化学习、数据中心网络、开源项目迭代与维护}
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
